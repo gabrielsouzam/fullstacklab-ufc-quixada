@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lexend", sans-serif;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: #FDFDFD;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  padding: 2rem 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header nav {
+  display: flex;
+  gap: 2.75rem;
+}
+
+.header h1 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.header h1 span {
+  color: #7E22CE;
+}
+
+.header a {
+  all: unset;
+  font-weight: 400;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  gap: 3.75rem;
+  align-items: center;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+}
+
+.aside {
+  display: flex;
+  flex-direction: column;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+  gap: 4.25rem;
+}
+
+.aside a img:hover {
+  color: #7E22CE;
+}
+
+.section {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
+.description {
+  width: 30rem;
+}
+
+.description h2 {
+  font-size: 4rem;
+  font-weight: 400;
+}
+
+.description h2 span {
+  font-weight: bold;
+  color: #7E22CE;
+}
+
+.description h3 {
+  font-size: 2.25rem;
+  font-weight: 400;
+  color: #a1a1aa;
+  margin-bottom: 5rem;
+}
+
+.description p {
+  color: #a1a1aa;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.footer span {
+  color: #a1a1aa;
+}
+
